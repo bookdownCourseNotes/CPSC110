@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 beginning student language | Systematic Program Design</title>
+  <meta name="description" content="Fundamental program and computation structures. Introductory programming skills. Computation as a tool for information processing, simulation and modelling, and interacting with the world." />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 beginning student language | Systematic Program Design" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Fundamental program and computation structures. Introductory programming skills. Computation as a tool for information processing, simulation and modelling, and interacting with the world." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 beginning student language | Systematic Program Design" />
+  
+  <meta name="twitter:description" content="Fundamental program and computation structures. Introductory programming skills. Computation as a tool for information processing, simulation and modelling, and interacting with the world." />
+  
+
+<meta name="author" content="Andrew Li" />
+
+
+<meta name="date" content="2021-02-21" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="literature.html"/>
+<script src="libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Preamble</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#caution"><i class="fa fa-check"></i><b>1.1</b> Caution</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#course-content"><i class="fa fa-check"></i><b>1.2</b> Course content</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="bsl.html"><a href="bsl.html"><i class="fa fa-check"></i><b>2</b> beginning student language</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="bsl.html"><a href="bsl.html#module"><i class="fa fa-check"></i><b>2.1</b> Module</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="bsl.html"><a href="bsl.html#learning-goals"><i class="fa fa-check"></i><b>2.1.1</b> Learning goals</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="bsl.html"><a href="bsl.html#expressions"><i class="fa fa-check"></i><b>2.2</b> Expressions</a></li>
+<li class="chapter" data-level="2.3" data-path="bsl.html"><a href="bsl.html#evaluations"><i class="fa fa-check"></i><b>2.3</b> Evaluations</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>3</b> Literature</a></li>
+<li class="chapter" data-level="4" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>4</b> Methods</a></li>
+<li class="chapter" data-level="5" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>5</b> Applications</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="applications.html"><a href="applications.html#example-one"><i class="fa fa-check"></i><b>5.1</b> Example one</a></li>
+<li class="chapter" data-level="5.2" data-path="applications.html"><a href="applications.html#example-two"><i class="fa fa-check"></i><b>5.2</b> Example two</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>6</b> Final Words</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Systematic Program Design</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="bsl" class="section level1" number="2">
+<h1><span class="header-section-number">Chapter 2</span> beginning student language</h1>
+<div id="module" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Module</h2>
+<p>This page provides an overview of the material for the first module of the course including topics, learning goals, estimate of time required and study tips. Each module of the course will start with a similar page which you can always access from the navigation bar to the left.</p>
+<p>In this course we use a specially designed programming language called Beginning Student Language (BSL). The BSL language is small and simple, and you will be able to learn most of it in this first module. Its simplicity has two benefits. First it allows us to spend more time on learning the design method which is the real focus of the course. In addition, because BSL forms the core of nearly every other language you will ever use, learning the design method using BSL will help you adapt the material you learn in this course to other programming languages.</p>
+<div id="learning-goals" class="section level3" number="2.1.1">
+<h3><span class="header-section-number">2.1.1</span> Learning goals</h3>
+<ul>
+<li>Be able to write expressions that operate on primitive data including numbers, strings, images and booleans.</li>
+<li>Be able to write constant and function definitions.</li>
+<li>Be able to write out the step-by-step evaluation of simple expressions including function calls.</li>
+<li>Be able to use the stepper to automatically step through the evaluation of an expression.</li>
+<li>Be able to use the Dr Racket help desk to discover new primitives.</li>
+</ul>
+</div>
+</div>
+<div id="expressions" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> Expressions</h2>
+<p>Racket <em>evaluates</em> expressions to produce valeus</p>
+<pre><code>(+ 3 4) ;This is an expression
+7       ;This is a value</code></pre>
+<p>To form an expression:</p>
+<pre><code>(&lt;primitive&gt; &lt;expression&gt; ...)</code></pre>
+<p>Here is a problem: Find the missing side of the length triangle via <span class="math inline">\(\sqrt{3^2 + 4^2}\)</span>. Write the BSL expression that solves this.</p>
+<pre><code>(sqrt (+ (sqr 3) (sqr 4)))</code></pre>
+</div>
+<div id="evaluations" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> Evaluations</h2>
+<p>We learned how to write expressions that operates on numbers, now we will look at the rules RAckert uses to evaluate those expressions.</p>
+<p>How does Racket evaluate this expressions to produce a value?</p>
+<pre><code>(+ (* 3 4)(- (+ 1 2) 3)) 
+(+ 2 12 (- (+ 1 2) 3)) ;step 1
+(+ 2 12 (-  3 3))      ;step 2
+(+ 2 12 0)             ;step 3
+14                     ;step 4</code></pre>
+<p>To evaluate a primitive call:</p>
+<ol style="list-style-type: decimal">
+<li>Reduce operands to values</li>
+<li>Then apply primitive to the valeus</li>
+<li>Intuitively, we go from left to right and inside to outside</li>
+</ol>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="literature.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["CPSC110.pdf", "CPSC110.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
