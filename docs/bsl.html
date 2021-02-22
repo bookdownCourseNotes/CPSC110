@@ -83,6 +83,7 @@
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="bsl.html"><a href="bsl.html#expressions"><i class="fa fa-check"></i><b>2.2</b> Expressions</a></li>
 <li class="chapter" data-level="2.3" data-path="bsl.html"><a href="bsl.html#evaluations"><i class="fa fa-check"></i><b>2.3</b> Evaluations</a></li>
+<li class="chapter" data-level="2.4" data-path="bsl.html"><a href="bsl.html#strings-and-images"><i class="fa fa-check"></i><b>2.4</b> Strings and Images</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>3</b> Literature</a></li>
 <li class="chapter" data-level="4" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>4</b> Methods</a></li>
@@ -132,7 +133,7 @@
 </div>
 <div id="expressions" class="section level2" number="2.2">
 <h2><span class="header-section-number">2.2</span> Expressions</h2>
-<p>Racket <em>evaluates</em> expressions to produce valeus</p>
+<p>Racket <em>evaluates</em> expressions to produce values</p>
 <pre><code>(+ 3 4) ;This is an expression
 7       ;This is a value</code></pre>
 <p>To form an expression:</p>
@@ -152,9 +153,16 @@
 <p>To evaluate a primitive call:</p>
 <ol style="list-style-type: decimal">
 <li>Reduce operands to values</li>
-<li>Then apply primitive to the valeus</li>
+<li>Then apply primitive to the values</li>
 <li>Intuitively, we go from left to right and inside to outside</li>
 </ol>
+<p>Some terminology:</p>
+<pre><code>(* 3 4) ;This is called a primitive call - when it starts with open parenthesis and prmitive operations
+*       ;In a primitive call, this is called the operator
+3 &amp; 4   ;In primitive call, expressions following the operator are called operands</code></pre>
+</div>
+<div id="strings-and-images" class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> Strings and Images</h2>
 
 </div>
 </div>

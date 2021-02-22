@@ -13,7 +13,7 @@ In this course we use a specially designed programming language called Beginning
 * Be able to use the Dr Racket help desk to discover new primitives.
 
 ## Expressions
-Racket *evaluates* expressions to produce valeus
+Racket *evaluates* expressions to produce values
 ```
 (+ 3 4) ;This is an expression
 7       ;This is a value
@@ -44,5 +44,14 @@ How does Racket evaluate this expressions to produce a value?
 To evaluate a primitive call: 
 
 1. Reduce operands to values
-2. Then apply primitive to the valeus
+2. Then apply primitive to the values
 3. Intuitively, we go from left to right and inside to outside
+
+Some terminology:
+```
+(* 3 4) ;This is called a primitive call - when it starts with open parenthesis and prmitive operations
+*       ;In a primitive call, this is called the operator
+3 & 4   ;In primitive call, expressions following the operator are called operands
+```
+
+## Strings and Images 
